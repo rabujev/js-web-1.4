@@ -73,7 +73,7 @@ function displayAge() {
     if (age < 0) {
       age = "wtf bro";
     }
-    document.querySelector('.displayAge').innerHTML = age
+    document.querySelector('.displayAge').innerHTML = "You are " + age + " years old."
   }
 }
 let select2 = document.querySelectorAll('select');
